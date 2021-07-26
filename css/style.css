@@ -1,0 +1,8 @@
+.jumbotron{
+    background-color: rgb(33, 189, 189);
+    height: 500px;
+}
+.column_back{
+    height: 100%;
+    background-color: tomato;
+}
