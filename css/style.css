@@ -6,3 +6,14 @@
     height: 100%;
     background-color: tomato;
 }
+.portfolio{
+    height: 600px;
+    background-color: violet;
+}
+.portfolio1{
+    background-color: white;
+}
+.portfolio-square{
+    background-color: lightgrey;
+    height: 150px;
+}
