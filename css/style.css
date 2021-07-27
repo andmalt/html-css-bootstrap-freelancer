@@ -11,19 +11,11 @@
 }
 .portfolio-square{
     background-color: lightgrey;
-    height: 200px;
+    height: 230px;
     border-radius: 10px;
 }
 .about-m{
     background-color: rgb(7, 194, 132);
-}
-.about-title{
-    height: 40%;
-}
-.about-row{
-    background-color: mediumpurple;
-    /* test  */
-    height: 150px;
 }
 .about-p{
     color: white;
@@ -64,4 +56,41 @@
 }
 .fa-star{
     font-size: 30px;
+}
+.bar-j-b{
+    border: none;
+    padding: 2px;
+    background-color: black;
+    opacity: 1;
+}
+
+.first-content{
+    background-image: url(../img/cabin.png);
+    background-position: center;
+    background-size: cover;
+}
+.second-content{
+    background-image: url(../img/cake.png);
+    background-position: center;
+    background-size: cover;
+}
+.third-content{
+    background-image: url(../img/circus.png);
+    background-position: center;
+    background-size: cover;
+}
+.four-content{
+    background-image: url(../img/game.png);
+    background-position: center;
+    background-size: cover;
+}
+.five-content{
+    background-image: url(../img/safe.png);
+    background-position: center;
+    background-size: cover;
+}
+.six-content{
+    background-image: url(../img/submarine.png);
+    background-position: center;
+    background-size: cover;
 }
