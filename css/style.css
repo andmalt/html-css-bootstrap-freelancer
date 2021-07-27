@@ -94,3 +94,25 @@
     background-position: center;
     background-size: cover;
 }
+
+.footer-up{
+    background-color: rgb(47, 67, 105);
+}
+.nav-footer li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 7px;
+
+}
+.link-boot{
+    color: rgb(20, 206, 20);;
+}
+.fab{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px;
+}
+.footer-down{
+    background-color: #212529;
+}
