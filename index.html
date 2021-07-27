@@ -19,7 +19,7 @@
 
     <main>
         <!--section jumbotron -->
-        <div class="container-fluid">
+        <section class="container-fluid">
 
             <div class="row jumbotron justify-content-sm-center ">
                 <!-- colonna con il contenuto -->
@@ -29,11 +29,11 @@
 
             </div>
 
-        </div>
+        </section>
 
         <!--section portfolio -->
 
-        <div class="container-sm portfolio  mb-sm-5">
+        <section class="container-sm portfolio  mb-sm-5">
 
             <div class="row portfolio1 justify-content-sm-center align-items-sm-end">
                 <div class="col-sm-8 portfolio2">
@@ -50,11 +50,11 @@
                 <div class="col-12 col-sm-5 col-md-3 portfolio-square m-sm-2"></div>
             </div>
 
-        </div>
+        </section>
 
         <!--section About -->
 
-        <div class="container-fluid about-m mb-5">
+        <section class="container-fluid about-m mb-5">
             <!-- titolo sezione -->
             <div class="row justify-content-center about-title mb-sm-3">
                 <div class="col-sm-4 about-row">
@@ -78,11 +78,11 @@
                 <div class="col-8 col-sm-2 button-down"><a href="#download">Download</a></div>
             </div>
 
-        </div>
+        </section>
 
         <!--section Contact us -->
 
-        <div class="container-sm">
+        <section class="container-sm mb-sm-5">
 
             <div class="row justify-content-center">
                 <div class="col-6 col-sm-4">
@@ -92,34 +92,29 @@
 
             <div class="row justify-content-center">
                 <div class="col-10 col-sm-8">
-                    <div class="row">
-                        <div class="col 12">
-                            <span>Nome</span>
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="input-name" placeholder="Name">
                         </div>
-                    </div>
-                    <hr>
-                    <div class="row">
-                        <div class="col 12">
-                            <span>Email Addres</span>
+
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="input-email" placeholder="Email">
                         </div>
-                    </div>
-                    <hr>
-                    <div class="row">
-                        <div class="col 12">
-                            <span>Phone Number</span>
+
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" id="input-phone-number" placeholder="Phone Number">
                         </div>
-                    </div>
-                    <hr>
-                    <div class="row">
-                        <div class="col 12">
-                            <span>Message</span>
+
+                        <div class="mb-3">
+                            <textarea class="form-control" id="input-text-area" rows="4" placeholder="Message"></textarea>
                         </div>
-                    </div>
-                    <hr>
+
+                        <button type="submit" class="btn-primary btn-send">Send</button>
+                    </form>
                 </div>
             </div>
 
-        </div>
+        </section>
 
 
     </main>
