@@ -1,11 +1,5 @@
 .jumbotron{
-    background-color: rgb(33, 189, 189);
-    /* test  */
-    height: 500px;
-}
-.column_back{
-    height: 100%;
-    background-color: tomato;
+    background-color:rgb(7, 194, 132);
 }
 .portfolio1{
     background-color: white;
@@ -52,4 +46,22 @@
     border: 1px solid rgb(20, 206, 20);
     border-radius: 5px;
     padding: 5px 15px;
+}
+.avatar{
+    height: 200px;
+}
+.avatar img{
+    height: 100%;
+}
+.title-avatar>h1{
+    font-weight: 600;
+}
+.bar-j{
+    border: none;
+    padding: 2px;
+    background-color: white;
+    opacity: 1;
+}
+.fa-star{
+    font-size: 30px;
 }
